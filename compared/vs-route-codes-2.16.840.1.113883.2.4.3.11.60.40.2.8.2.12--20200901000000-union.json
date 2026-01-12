@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "beb9466c-229c-48e7-a233-f101d8fa0ead-14",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/beb9466c-229c-48e7-a233-f101d8fa0ead-14",
+  "name" : "UnionSNOMEDCTRouteCodesAndWijzeVanBlootstellingCodelijst",
+  "title" : "Union of SNOMED CT Route Codes And WijzeVanBlootstellingCodelijst",
+  "status" : "draft",
+  "date" : "2026-01-12T15:40:30+01:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "284009009"
+      },
+      {
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "284009009"
+      }]
+    }]
+  }
+}

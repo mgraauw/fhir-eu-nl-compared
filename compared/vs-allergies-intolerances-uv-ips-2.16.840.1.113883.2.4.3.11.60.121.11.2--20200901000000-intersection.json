@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "beb9466c-229c-48e7-a233-f101d8fa0ead-9",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/beb9466c-229c-48e7-a233-f101d8fa0ead-9",
+  "name" : "IntersectionAllergiesIntolerancesUvIpsAndVeroorzakendeStofCodelijsten",
+  "title" : "Intersection of Allergies & Intolerances - IPS And VeroorzakendeStofCodelijsten",
+  "status" : "active",
+  "date" : "2026-01-12T15:40:30+01:00"
+}

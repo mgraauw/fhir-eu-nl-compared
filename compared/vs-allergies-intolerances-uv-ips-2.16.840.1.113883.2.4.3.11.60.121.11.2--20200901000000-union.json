@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "beb9466c-229c-48e7-a233-f101d8fa0ead-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/beb9466c-229c-48e7-a233-f101d8fa0ead-8",
+  "name" : "UnionAllergiesIntolerancesUvIpsAndVeroorzakendeStofCodelijsten",
+  "title" : "Union of Allergies & Intolerances - IPS And VeroorzakendeStofCodelijsten",
+  "status" : "active",
+  "date" : "2026-01-12T15:40:30+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "373873005"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "420134006"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "716186003"
+      }]
+    },
+    {
+      "valueSet" : ["http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.13--20200901000000"]
+    },
+    {
+      "valueSet" : ["http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.14--20200901000000"]
+    },
+    {
+      "valueSet" : ["http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.15--20200901000000"]
+    },
+    {
+      "valueSet" : ["http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.17--20200901000000"]
+    },
+    {
+      "valueSet" : ["http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.19--20200901000000"]
+    }]
+  }
+}
