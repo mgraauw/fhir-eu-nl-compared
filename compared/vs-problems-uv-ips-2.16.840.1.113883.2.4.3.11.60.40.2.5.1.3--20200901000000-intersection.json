@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9f07288a-0cd5-41a0-a7cf-a8216b255696-9",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9f07288a-0cd5-41a0-a7cf-a8216b255696-9",
+  "name" : "IntersectionProblemsUvIpsAndProbleemNaamCodelijst",
+  "title" : "Intersection of Problems - IPS And ProbleemNaamCodelijst",
+  "status" : "active",
+  "date" : "2026-01-12T14:39:50+01:00"
+}

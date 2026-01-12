@@ -1,0 +1,93 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9f07288a-0cd5-41a0-a7cf-a8216b255696-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9f07288a-0cd5-41a0-a7cf-a8216b255696-8",
+  "name" : "UnionProblemsUvIpsAndProbleemNaamCodelijst",
+  "title" : "Union of Problems - IPS And ProbleemNaamCodelijst",
+  "status" : "active",
+  "date" : "2026-01-12T14:39:50+01:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "243796009"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "272379006"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "160245001"
+      }]
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.6.98"
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.2.4.4.1.902.40"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10-nl"
+    },
+    {
+      "system" : "http://www.nanda.org/"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icf-nl"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icpc-1-nl"
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.6.126"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/dsm5"
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.3.3210.14.2.2.35"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "31000147101"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "11721000146100"
+      }]
+    }]
+  }
+}
