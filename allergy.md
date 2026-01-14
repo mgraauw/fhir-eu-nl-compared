@@ -1,7 +1,7 @@
 # Comparison of allergy profiles
 
-Left: eu-core (R4)
-Right: nl-core (R4)
+Left: [Allergy Intolerance (EU core)](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-allergyIntolerance-eu-core.html) (R4)
+Right: [nl core AllergyIntolerance](https://simplifier.net/nictiz-r4-zib2020/nlcoreallergyintolerance) (R4)
 
 [Validator diff](./compared/index-allergy.html)
 

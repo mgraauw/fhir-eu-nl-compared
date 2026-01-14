@@ -1,7 +1,7 @@
 # Comparison of condition
 
-Left: eu
-Richt: nl-core
+Left: [Condition (EU core)](https://build.fhir.org/ig/hl7-eu/base/StructureDefinition-condition-eu-core.html) (R4)
+Right: [nl-core Problem](https://simplifier.net/nictiz-r4-zib2020/nlcoreproblem) (R4)
 
 [Validator diff](./compared/index-condition.html)
 
