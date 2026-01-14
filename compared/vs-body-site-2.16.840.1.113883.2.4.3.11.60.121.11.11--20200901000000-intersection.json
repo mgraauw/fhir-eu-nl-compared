@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "9f07288a-0cd5-41a0-a7cf-a8216b255696-12",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/9f07288a-0cd5-41a0-a7cf-a8216b255696-12",
+  "name" : "IntersectionSNOMEDCTBodyStructuresAndLocatieCodelijsten",
+  "title" : "Intersection of SNOMED CT Body Structures And LocatieCodelijsten",
+  "status" : "draft",
+  "date" : "2026-01-12T14:39:50+01:00"
+}
