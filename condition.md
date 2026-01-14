@@ -3,7 +3,7 @@
 Left: eu
 Richt: nl-core
 
-[Validator diff](index-condition.html)
+[Validator diff](./compared/index-condition.html)
 
 ## Findings
 
